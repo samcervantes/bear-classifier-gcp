@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # This is Jeremy's File:
-#model_file_url = 'https://www.dropbox.com/s/y4kl2gv1akv7y4i/stage-2.pth?raw=1'
+model_file_url = 'https://www.dropbox.com/s/y4kl2gv1akv7y4i/stage-2.pth?raw=1'
 
 # This is Sam's File:
-model_file_url = 'https://www.dropbox.com/s/m0lqqywf1dunjap/export.pkl?raw=1'
+# model_file_url = 'https://www.dropbox.com/s/m0lqqywf1dunjap/export.pkl?raw=1'
 model_file_name = 'model'
 classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
